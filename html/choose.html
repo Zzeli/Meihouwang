@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>选择支付方式</title>
+    <link rel="stylesheet" href="../css/weui.css"/>
+    <link rel="stylesheet" href="../css/example.css"/>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/practice.css">
+
+</head>
+<body ontouchstart>
+<div class="container" id="container">
+    <div class="weui-cells weui-cells_radio">
+        <div class="weui-cell">
+            <p>支付方式</p>
+        </div>
+        <label class="weui-cell weui-check__label" for="x11">
+            <div class="weui-cell__hd"><img src="../images/wxzf@2x.png"></div>
+            <div class="weui-cell__bd">
+                <p>微信支付</p>
+            </div>
+            <div class="weui-cell__ft">
+                <input type="radio" class="weui-check" name="radio1" id="x11">
+                <span class="weui-icon-checked"></span>
+            </div>
+        </label>
+        <label class="weui-cell weui-check__label" for="x12">
+            <div class="weui-cell__hd"><img src="../images/zfb@2x.png"></div>
+            <div class="weui-cell__bd">
+                <p>支付宝支付</p>
+            </div>
+            <div class="weui-cell__ft">
+                <input type="radio" name="radio1" class="weui-check" id="x12" checked="checked">
+                <span class="weui-icon-checked"></span>
+            </div>
+        </label>
+    </div>
+
+
+</div>
+</body>
+</html>
+<script src="../js/zepto.min.js"></script>

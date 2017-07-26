@@ -1,0 +1,136 @@
+@charset "UTF-8";
+@import url(base.css);
+/*函数*/
+/*@function bg(){
+	$r:floor(random()*56+200);
+	$g:floor(random()*56);
+	$b:floor(random()*56);
+	$color:rgb($r,$g,$b);
+	@debug $color;  
+	@return $color;
+}*/
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px; } }
+
+@media screen and (min-width: 365px) {
+  html {
+    font-size: 48.66667px; } }
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px; } }
+
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 51.2px; } }
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px; } }
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 80px; } }
+
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 100px; } }
+
+body {
+  font-size: 16px; }
+
+* {
+  box-sizing: border-box; }
+
+.container {
+  overflow: scroll; }
+
+.weui-cell__bd {
+  font-family: PingFang-SC;
+  font-size: 0.34rem;
+  font-weight: 500;
+  text-align: left;
+  color: #000000; }
+
+.weui-cell_access {
+  font-family: PingFang-SC;
+  font-size: 0.26rem;
+  font-weight: 500;
+  text-align: left;
+  color: #777373; }
+
+.weui-cell__ft {
+  font-family: PingFang-SC;
+  font-size: 0.24rem;
+  font-weight: 500;
+  text-align: left;
+  color: #f6c252; }
+
+.weui-cell {
+  font-family: PingFang-SC;
+  font-size: 0.24rem;
+  font-weight: 500;
+  text-align: left;
+  color: #999999; }
+  .weui-cell p {
+    margin-right: 0.53rem; }
+  .weui-cell .article {
+    margin-right: 0 !important; }
+
+.weui-cell__hd {
+  margin-right: 0.15rem; }
+  .weui-cell__hd img {
+    width: 0.31rem;
+    height: 0.31rem; }
+
+.weui-flex {
+  padding-bottom: 0.18rem;
+  padding-left: 0.33rem; }
+
+.weui-flex__item {
+  height: 0.6rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 0.1rem;
+  background-color: #18a6f0;
+  border: solid 0.02rem rgba(0, 0, 0, 0.08);
+  font-size: 0.13rem;
+  font-weight: 500;
+  text-align: center;
+  width: 46%;
+  color: #ffffff;
+  margin-right: 0.28rem;
+  flex: 1 0 auto; }
+
+.weui-flex__item:nth-child(1) {
+  background-color: #dfdfdf;
+  border: solid 0.01rem rgba(0, 0, 0, 0.08);
+  color: #1e1d1d; }
+
+.second p {
+  font-size: 0.26rem;
+  font-weight: 500;
+  text-align: left;
+  color: #777373; }
+dy {
+  width: 100%;
+  height: 100vh; }
+
+body {
+  font-size: 16px;
+  line-height: 1;
+  font-family: "苹方", "Microsoft YaHei", sans-serif;
+  background-color: #efeff4; }
+
+.container {
+  padding: 0 .24rem; }

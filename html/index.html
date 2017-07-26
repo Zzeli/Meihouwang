@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>首页</title>
+    <script src="http://api.map.baidu.com/api?v=1.3" type="text/javascript"></script>
+    <link rel="stylesheet" href="../css/weui.css"/>
+    <link rel="stylesheet" href="../css/example.css"/>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/base.css">
+</head>
+<body ontouchstart>
+
+    <div class="container" id="container">
+        <!--头像-->
+        <div class="header">
+            <div class="left location" id="location">
+                <img src="../images/dw@2x.png" alt="">
+                <div class="baidu_geo"></div>
+            </div>
+            <div class="right">
+                <img src="../images/3@2x.png" alt="">
+            </div>
+        </div>
+        <div class="weui-search-bar" id="searchBar">
+            <form class="weui-search-bar__form">
+                <div class="weui-search-bar__box">
+                    <i class="weui-icon-search"></i>
+                    <input type="search" class="weui-search-bar__input" id="searchInput" placeholder="搜索" required="">
+                    <a href="javascript:" class="weui-icon-clear" id="searchClear"></a>
+                </div>
+                <label class="weui-search-bar__label" id="searchText">
+                    <i class="weui-icon-search"></i>
+                    <span>搜索</span>
+                </label>
+            </form>
+            <a href="javascript:" class="weui-search-bar__cancel-btn" id="searchCancel">取消</a>
+        </div>
+
+
+        <div class="swiper-container" data-space-between='10' data-pagination='.swiper-pagination' data-autoplay="1000">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="../images/18@2x.png" alt=""></div>
+                <div class="swiper-slide"><img src="../images/18@2x.png" alt=""></div>
+                <div class="swiper-slide"><img src="../images/18@2x.png" alt=""></div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="weui-jiaj-panel">
+            <div class="weui-jia-cell-column-center warp">
+                <img src="../images/lb@2x.png" alt="">
+                <div class="" id="demo">
+                        <div id="demo1">
+                            <ul id="express">
+                                <li>人力资源成绩通知：大家都哈酒店会见活动</li>
+                                <li>人力成绩通知</li>
+                                <li>招生最新信息</li>
+                                <li>公司公告通知</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="weui-grids">
+            <div class="weui-flex">
+                <div class="weui-grid__icon">
+                    <img src="../images/6@2x.png" alt="">
+                </div>
+                <p class="weui-grid__label">
+                    学历教育
+                </p>
+                </div>
+            <div class="weui-flex">
+                <div class="weui-grid__icon">
+                    <img src="../images/7@2x.png" alt="">
+                </div>
+                <p class="weui-grid__label">
+                    职场考证
+                </p>
+             </div>
+            <div class="weui-flex">
+                <div class="weui-grid__icon">
+                    <img src="../images/8@2x.png" alt="">
+                </div>
+                <p class="weui-grid__label">
+                    会员中心
+                </p>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="weui-jiaj-panel zxjh">
+                <img src="../images/9@2x.png" alt="">
+                <div>助学计划</div>
+
+            </div>
+            <div class="cons">
+                <img class="ax" src="../images/19@2x.png" alt="">
+            </div>
+        </div>
+
+
+        <div class="method">
+            <div class="weui-flex__item" style="display: flex;font-weight: 500;text-align: left;color: #ffffff;">
+                <img src="../images/method-2@2x (2).png" alt="" >
+                <p>会计</p>
+            </div>
+            <div class="weui-flex__item" style="display: flex;font-weight: 500;text-align: left;color: #ffffff;">
+                <img src="../images/method-6@2x.png" alt="">
+                <p>远程</p>
+            </div>
+            <div class="weui-flex__item" style="display: flex;font-weight: 500;text-align: left;color: #ffffff;">
+                <img src="../images/method-8@2x.png" alt="">
+                <p>教师</p>
+            </div>
+            <div class="weui-flex__item" style="display: flex;font-weight: 500;text-align: left;color: #ffffff;">
+                <img src="../images/method-7@2x.png" alt="" >
+                <p>二建</p>
+            </div>
+            <div class="weui-flex__item" style="display: flex;font-weight: 500;text-align: left;color: #ffffff;">
+                <img src="../images/method-4@2x (3).png" alt="">
+                <p>函授</p>
+            </div>
+            <div class="weui-flex__item" style="display: flex;font-weight: 500;text-align: left;color: #ffffff;">
+                <img src="../images/method-3@2x (2).png" alt="">
+                <p>人力</p>
+            </div>
+        </div>
+
+
+        <div class="map">
+            <div class="weui-flex">
+                <div class="weui-flex__item"><img src="../images/16@2x.png" alt=""></div>
+                <div class="weui-flex__item">电话：400-862-0351</div>
+                <div class="weui-flex__item">Email: 3442024643@qq.com</div>
+            </div>
+        </div>
+
+        <div class="weui-flex tec">
+            <div class="weui-flexz_item">技术支持</div>
+            <div class="weui-flexz_item">山西欢颜网络科技有限公司</div>
+        </div>
+
+    </div>
+    <script src="http://api.map.baidu.com/api?v=1.3" type="text/javascript"></script>
+    <script src="../js/zepto.min.js"></script>
+    <script type='text/javascript' src='../js/swiper.js' charset='utf-8'></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/index.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+

@@ -1,0 +1,95 @@
+@charset "UTF-8";
+@import url(base.css);
+/*函数*/
+/*@function bg(){
+	$r:floor(random()*56+200);
+	$g:floor(random()*56);
+	$b:floor(random()*56);
+	$color:rgb($r,$g,$b);
+	@debug $color;  
+	@return $color;
+}*/
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px; } }
+
+@media screen and (min-width: 365px) {
+  html {
+    font-size: 48.66667px; } }
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px; } }
+
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 51.2px; } }
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px; } }
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 80px; } }
+
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 100px; } }
+
+body {
+  font-size: 16px; }
+
+body, html {
+  background-color: #efeff4; }
+
+.weui-media-box {
+  padding-bottom: 0; }
+
+.weui-media-box__title {
+  font-size: 0.37rem; }
+
+.weui-media-box__desc {
+  font-size: 0.24rem; }
+
+.weui-media-box_appmsg .weui-media-box__hd {
+  width: 0.79rem;
+  height: 1rem; }
+
+.container {
+  overflow: scroll;
+  padding-top: 0.49rem; }
+
+.con {
+  width: 95%;
+  background-color: #fff;
+  margin: 0 auto; }
+
+.weui-cell__bd {
+  font-size: 0.34rem;
+  display: flex; }
+  .weui-cell__bd p:nth-child(1) {
+    margin-right: 0.4rem;
+    flex: 3; }
+  .weui-cell__bd p:nth-child(2) {
+    flex: 8;
+    text-align: left;
+    color: #b2b2b2; }
+
+.weui-flex a {
+  background-color: #18a6f0;
+  font-size: 0.36rem; }
+
+.weui-flex .weui-flex__item:nth-child(1) {
+  margin-right: 0.18rem; }
+
+.weui-cells {
+  margin-top: 0; }

@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url(base.css);
+/*函数*/
+/*@function bg(){
+	$r:floor(random()*56+200);
+	$g:floor(random()*56);
+	$b:floor(random()*56);
+	$color:rgb($r,$g,$b);
+	@debug $color;  
+	@return $color;
+}*/
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px; } }
+
+@media screen and (min-width: 365px) {
+  html {
+    font-size: 48.66667px; } }
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px; } }
+
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 51.2px; } }
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px; } }
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 80px; } }
+
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 100px; } }
+
+body {
+  font-size: 16px; }
+
+.container {
+  width: 100%;
+  padding-left: 0.33rem !important;
+  padding-right: 0.41rem !important;
+  padding-top: 0.36rem !important;
+  background: #fff; }
+  .container .time {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.43rem;
+    margin-top: 0.6rem;
+    font-size: 0.34rem;
+    font-weight: 500;
+    text-align: left;
+    color: #a2a2a2; }
+    .container .time img {
+      margin-right: 0.26rem;
+      width: 0.36rem;
+      height: 0.36rem; }
+
+h1 {
+  font-family: PingFang-SC;
+  font-weight: 500;
+  text-align: left;
+  font-size: 0.37rem;
+  color: #000; }
+
+p {
+  text-indent: 2em;
+  margin-bottom: 0.3rem;
+  font-size: 0.28rem;
+  color: #353535;
+  font-weight: 500;
+  line-height: 1.29;
+  text-align: justify; }
